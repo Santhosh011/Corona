@@ -11,5 +11,5 @@ df1_edited <- df_edited%>% group_by(location) %>%
   filter(location == 'India' )
 
 df2<-df1_edited[!(df1_edited$new_cases<100),]
-write.csv(df2, "E:/theory/sem5/dcs/my_data.csv")
+write.csv(df2, "Path to which u want it to be saved")
 

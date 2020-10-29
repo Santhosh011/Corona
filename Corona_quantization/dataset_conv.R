@@ -1,6 +1,6 @@
 rm(list=ls())
 getwd()
-setwd("E:/theory/sem5/dcs")
+setwd("The desired directory")
 library(dplyr)
 
 df <- read.csv('covid-data.csv')
